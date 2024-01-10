@@ -1,0 +1,16 @@
+Thanks for supporting me!
+
+On Start() the "MusicCheckerAndMaker" will create the music maker, and will check to see if it was already made to make sure you only have one music maker made. Both the “MusicCheckerAndMaker” and the “MusicBoiPrefab” will go under DontDestroyOnLoad, this way the music will go through all scenes where you can access “MusicCheckerAndMaker” to adjust volume levels. You can also safely reload the first scene without duplicates.
+
+"MusicBoiPrefab" will be created once and will cycle through whatever list of songs you put under the "Clips" array. Check or uncheck random play to either start at the begining of the list and cycle through or randomly select. 
+
+“MusicCheckerAndMaker” will control and mute sound and music under the “Music Set” script. It is separated from the menu buttons so as it moves from scene to scene the lack of consistent UI won’t be a problem. Access “Music Set” to use MuteMusic(), MuteSound(), SetMusic(float musicLevel), and SetSound(float soundLevel).
+
+Under the options menu you can adjust music and sound effect with the slider bar or enable and disable all together.
+
+Any questions feel free to email lexatlexcorp@gmail.com
+
+**Note: Menu, UI, Sound effects, and Songs for demonstration purposes.
+** Music by Royalty Free Background Music Downloads - Fesliyan Studios
+** If you plan on using the music please PayPal a donation amount of your choice to http://www.fesliyanstudios.com, or fill out the form on their website
+** Sound effects made with BFXR, feel free to use them if you want
